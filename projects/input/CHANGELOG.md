@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/Coolpix/lerna-example/compare/input@0.0.4...input@1.0.0) (2019-04-30)
+
+
+### Code Refactoring
+
+* **Input component:** Añadido texto al botón ([9aef9fe](https://github.com/Coolpix/lerna-example/commit/9aef9fe))
+
+
+### BREAKING CHANGES
+
+* **Input component:** Al añadir texto al component botón, estos serán renderizados en todos los
+componentes que lo usen
+
+
+
+
+
 ## [0.0.4](https://github.com/Coolpix/lerna-example/compare/input@0.0.3...input@0.0.4) (2019-04-30)
 
 **Note:** Version bump only for package input
