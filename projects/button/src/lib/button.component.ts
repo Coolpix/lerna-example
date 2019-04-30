@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-button',
   template: `
     <button>
-      Button works!
+      Button works!!!
+      Great!!
     </button>
   `,
   styles: []
