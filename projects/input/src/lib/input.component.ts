@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-input',
   template: `
-    <p>
+    <div>
       Input works!
-    </p>
+    </div>
   `,
   styles: []
 })
