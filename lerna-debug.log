@@ -12,10 +12,10 @@
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 3
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "button@2.0.0-7-gba55b75" => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"7","sha":"ba55b75","isDirty":false}
+13 silly git-describe.sync "button@2.0.0-9-g768129f" => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"9","sha":"768129f","isDirty":false}
 14 info Looking for changed packages since button@2.0.0
 15 silly checking diff projects/button
 16 silly found diff in projects/button/CHANGELOG.md
@@ -30,8 +30,8 @@
 20 verbose filtered diff [ 'projects/input/CHANGELOG.md', 'projects/input/package.json' ]
 21 verbose updated button
 22 verbose updated input
-23 verbose git-describe undefined => "button@2.0.0-7-gba55b75"
-24 silly git-describe parsed => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"7","sha":"ba55b75","isDirty":false}
+23 verbose git-describe undefined => "button@2.0.0-9-g768129f"
+24 silly git-describe parsed => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"9","sha":"768129f","isDirty":false}
 25 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
 26 verbose getChangelogConfig using preset "conventional-changelog-angular"
 27 silly npa { type: 'tag',
@@ -49,9 +49,9 @@
 27 silly npa   hosted: undefined }
 28 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 29 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-30 verbose independent increment 2.0.1 by patch
+30 verbose independent increment 2.0.2 by patch
 31 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-32 verbose independent increment 1.0.1 by patch
+32 verbose independent increment 1.0.2 by patch
 33 silly batched [ PackageGraphNode {
 33 silly batched     name: 'button',
 33 silly batched     externalDependencies: Map {},
@@ -67,12 +67,12 @@
 37 silly lifecycle No script for "preversion" in "button", continuing
 38 silly lifecycle No script for "version" in "button", continuing
 39 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
-40 silly independent writing new entry: "## [2.0.2](https://github.com/Coolpix/lerna-example/compare/button@2.0.0...button@2.0.2) (2019-04-30)\n\n**Note:** Version bump only for package button\n\n\n\n"
+40 silly independent writing new entry: "## [2.0.3](https://github.com/Coolpix/lerna-example/compare/button@2.0.0...button@2.0.3) (2019-05-03)\n\n**Note:** Version bump only for package button\n\n\n\n"
 41 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md
 42 silly lifecycle No script for "preversion" in "input", continuing
 43 silly lifecycle No script for "version" in "input", continuing
 44 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-45 silly independent writing new entry: "## [1.0.2](https://github.com/Coolpix/lerna-example/compare/input@1.0.0...input@1.0.2) (2019-04-30)\n\n**Note:** Version bump only for package input\n\n\n\n"
+45 silly independent writing new entry: "## [1.0.3](https://github.com/Coolpix/lerna-example/compare/input@1.0.0...input@1.0.3) (2019-05-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
 46 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md
 47 silly lifecycle No script for "version" in "semver-libs", continuing
 48 silly gitAdd [ '/home/sergio/WebstormProjects/semver-libs/projects/button/package.json',
@@ -81,18 +81,18 @@
 48 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md' ]
 49 silly gitCommit Publish
 49 silly gitCommit
-49 silly gitCommit  - button@2.0.2
-49 silly gitCommit  - input@1.0.2
+49 silly gitCommit  - button@2.0.3
+49 silly gitCommit  - input@1.0.3
 50 verbose git [ 'commit',
 50 verbose git   '-F',
-50 verbose git   '/tmp/5329a0a2-7d79-43c0-b67c-9b379bee2d54/lerna-commit.txt' ]
-51 error Error: Command failed: git commit -F /tmp/5329a0a2-7d79-43c0-b67c-9b379bee2d54/lerna-commit.txt
+50 verbose git   '/tmp/a43a36a8-d15a-4719-9e9d-7a2067ecdbea/lerna-commit.txt' ]
+51 error Error: Command failed: git commit -F /tmp/a43a36a8-d15a-4719-9e9d-7a2067ecdbea/lerna-commit.txt
 51 error husky > commit-msg (node v10.15.3)
 51 error
 51 error ⧗   input: Publish
 51 error
-51 error  - button@2.0.2
-51 error  - input@1.0.2
+51 error  - button@2.0.3
+51 error  - input@1.0.3
 51 error ✖   subject may not be empty [subject-empty]
 51 error ✖   type may not be empty [type-empty]
 51 error ✖   found 2 problems, 0 warnings
