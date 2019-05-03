@@ -2,7 +2,7 @@
 0 silly argv   'conventional-commits': true,
 0 silly argv   conventionalCommits: true,
 0 silly argv   lernaVersion: '3.13.4',
-0 silly argv   '$0': '/usr/bin/lerna' }
+0 silly argv   '$0': 'node_modules/.bin/lerna' }
 1 notice cli v3.13.4
 2 verbose rootPath /home/sergio/WebstormProjects/semver-libs
 3 info versioning independent
@@ -12,88 +12,96 @@
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 4
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 8
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "button@2.0.5-4-gf6a0b0a" => {"lastTagName":"button@2.0.5","lastVersion":"2.0.5","refCount":"4","sha":"f6a0b0a","isDirty":false}
+13 silly git-describe.sync "button@2.0.5-8-g772a4a4" => {"lastTagName":"button@2.0.5","lastVersion":"2.0.5","refCount":"8","sha":"772a4a4","isDirty":false}
 14 info Looking for changed packages since button@2.0.5
-15 silly checking diff projects/button
-16 silly found diff in projects/button/src/lib/button.component.ts
-17 verbose filtered diff [ 'projects/button/src/lib/button.component.ts' ]
-18 silly checking diff projects/input
-19 silly no diff found in input
-20 verbose updated button
-21 verbose updated input
-22 verbose git-describe undefined => "button@2.0.5-4-gf6a0b0a"
-23 silly git-describe parsed => {"lastTagName":"button@2.0.5","lastVersion":"2.0.5","refCount":"4","sha":"f6a0b0a","isDirty":false}
-24 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
-25 verbose getChangelogConfig using preset "conventional-changelog-angular"
-26 silly npa { type: 'tag',
-26 silly npa   registry: true,
-26 silly npa   where: undefined,
-26 silly npa   raw: 'conventional-changelog-angular',
-26 silly npa   name: 'conventional-changelog-angular',
-26 silly npa   escapedName: 'conventional-changelog-angular',
-26 silly npa   scope: undefined,
-26 silly npa   rawSpec: '',
-26 silly npa   saveSpec: null,
-26 silly npa   fetchSpec: 'latest',
-26 silly npa   gitRange: undefined,
-26 silly npa   gitCommittish: undefined,
-26 silly npa   hosted: undefined }
-27 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
-28 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-29 verbose independent increment 2.0.5 by patch
-30 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-31 verbose independent increment 1.0.5 by patch
-32 silly batched [ PackageGraphNode {
-32 silly batched     name: 'button',
-32 silly batched     externalDependencies: Map {},
-32 silly batched     localDependencies: Map {},
-32 silly batched     localDependents: Map { 'input' => [PackageGraphNode] } } ]
-33 silly batched [ PackageGraphNode {
-33 silly batched     name: 'input',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} } ]
-34 info execute Skipping GitHub releases
-35 silly lifecycle No script for "preversion" in "semver-libs", continuing
-36 silly lifecycle No script for "preversion" in "button", continuing
-37 silly lifecycle No script for "version" in "button", continuing
-38 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
-39 silly independent writing new entry: "## [2.0.6](https://github.com/Coolpix/lerna-example/compare/button@2.0.5...button@2.0.6) (2019-05-03)\n\n**Note:** Version bump only for package button\n\n\n\n"
-40 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md
-41 silly lifecycle No script for "preversion" in "input", continuing
-42 silly lifecycle No script for "version" in "input", continuing
-43 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-44 silly independent writing new entry: "## [1.0.6](https://github.com/Coolpix/lerna-example/compare/input@1.0.5...input@1.0.6) (2019-05-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
-45 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md
-46 silly lifecycle No script for "version" in "semver-libs", continuing
-47 silly gitAdd [ '/home/sergio/WebstormProjects/semver-libs/projects/button/package.json',
-47 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md',
-47 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/package.json',
-47 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md' ]
-48 silly gitCommit Publish
-48 silly gitCommit
-48 silly gitCommit  - button@2.0.6
-48 silly gitCommit  - input@1.0.6
-49 verbose git [ 'commit',
-49 verbose git   '-F',
-49 verbose git   '/tmp/a6fd5ce7-cd2d-48cf-b135-b6d452722e43/lerna-commit.txt' ]
-50 error Error: Command failed: git commit -F /tmp/a6fd5ce7-cd2d-48cf-b135-b6d452722e43/lerna-commit.txt
-50 error husky > commit-msg (node v10.15.3)
-50 error
-50 error ⧗   input: Publish
-50 error
-50 error  - button@2.0.6
-50 error  - input@1.0.6
-50 error ✖   subject may not be empty [subject-empty]
-50 error ✖   type may not be empty [type-empty]
-50 error ✖   found 2 problems, 0 warnings
-50 error     (Need help? -> https://github.com/conventional-changelog/commitlint#what-is-commitlint )
-50 error
-50 error
-50 error husky > commit-msg hook failed (add --no-verify to bypass)
-50 error
-50 error     at makeError (/home/sergio/WebstormProjects/semver-libs/node_modules/execa/index.js:174:9)
-50 error     at Promise.all.then.arr (/home/sergio/WebstormProjects/semver-libs/node_modules/execa/index.js:278:16)
+15 info ignoring diff in paths matching [ '**/__fixtures__/**', '**/__tests__/**', '**/*.md' ]
+16 silly checking diff projects/button
+17 silly found diff in projects/button/CHANGELOG.md
+17 silly found diff in projects/button/package.json
+17 silly found diff in projects/button/src/lib/button.component.ts
+18 verbose filtered diff [ 'projects/button/package.json',
+18 verbose filtered diff   'projects/button/src/lib/button.component.ts' ]
+19 silly checking diff projects/input
+20 silly found diff in projects/input/CHANGELOG.md
+20 silly found diff in projects/input/package.json
+20 silly found diff in projects/input/src/lib/input.component.ts
+21 verbose filtered diff [ 'projects/input/package.json',
+21 verbose filtered diff   'projects/input/src/lib/input.component.ts' ]
+22 verbose updated button
+23 verbose updated input
+24 verbose git-describe undefined => "button@2.0.5-8-g772a4a4"
+25 silly git-describe parsed => {"lastTagName":"button@2.0.5","lastVersion":"2.0.5","refCount":"8","sha":"772a4a4","isDirty":false}
+26 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
+27 verbose getChangelogConfig using preset "conventional-changelog-angular"
+28 silly npa { type: 'tag',
+28 silly npa   registry: true,
+28 silly npa   where: undefined,
+28 silly npa   raw: 'conventional-changelog-angular',
+28 silly npa   name: 'conventional-changelog-angular',
+28 silly npa   escapedName: 'conventional-changelog-angular',
+28 silly npa   scope: undefined,
+28 silly npa   rawSpec: '',
+28 silly npa   saveSpec: null,
+28 silly npa   fetchSpec: 'latest',
+28 silly npa   gitRange: undefined,
+28 silly npa   gitCommittish: undefined,
+28 silly npa   hosted: undefined }
+29 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+30 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+31 verbose independent increment 2.0.6 by patch
+32 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
+33 verbose independent increment 1.0.6 by patch
+34 silly batched [ PackageGraphNode {
+34 silly batched     name: 'button',
+34 silly batched     externalDependencies: Map {},
+34 silly batched     localDependencies: Map {},
+34 silly batched     localDependents: Map { 'input' => [PackageGraphNode] } } ]
+35 silly batched [ PackageGraphNode {
+35 silly batched     name: 'input',
+35 silly batched     externalDependencies: Map {},
+35 silly batched     localDependencies: Map {},
+35 silly batched     localDependents: Map {} } ]
+36 info execute Skipping GitHub releases
+37 silly lifecycle No script for "preversion" in "semver-libs", continuing
+38 silly lifecycle No script for "preversion" in "button", continuing
+39 silly lifecycle No script for "version" in "button", continuing
+40 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
+41 silly independent writing new entry: "## [2.0.7](https://github.com/Coolpix/lerna-example/compare/button@2.0.5...button@2.0.7) (2019-05-03)\n\n**Note:** Version bump only for package button\n\n\n\n"
+42 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md
+43 silly lifecycle No script for "preversion" in "input", continuing
+44 silly lifecycle No script for "version" in "input", continuing
+45 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
+46 silly independent writing new entry: "## [1.0.7](https://github.com/Coolpix/lerna-example/compare/input@1.0.5...input@1.0.7) (2019-05-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
+47 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md
+48 silly lifecycle No script for "version" in "semver-libs", continuing
+49 silly gitAdd [ '/home/sergio/WebstormProjects/semver-libs/projects/button/package.json',
+49 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md',
+49 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/package.json',
+49 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md' ]
+50 silly gitCommit Publish
+50 silly gitCommit
+50 silly gitCommit  - button@2.0.7
+50 silly gitCommit  - input@1.0.7
+51 verbose git [ 'commit',
+51 verbose git   '-F',
+51 verbose git   '/tmp/4a1d5b71-9da9-40f4-848e-894ae71feb2b/lerna-commit.txt' ]
+52 error Error: Command failed: git commit -F /tmp/4a1d5b71-9da9-40f4-848e-894ae71feb2b/lerna-commit.txt
+52 error husky > commit-msg (node v10.15.3)
+52 error
+52 error ⧗   input: Publish
+52 error
+52 error  - button@2.0.7
+52 error  - input@1.0.7
+52 error ✖   subject may not be empty [subject-empty]
+52 error ✖   type may not be empty [type-empty]
+52 error ✖   found 2 problems, 0 warnings
+52 error     (Need help? -> https://github.com/conventional-changelog/commitlint#what-is-commitlint )
+52 error
+52 error
+52 error husky > commit-msg hook failed (add --no-verify to bypass)
+52 error
+52 error     at makeError (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
+52 error     at Promise.all.then.arr (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16)
