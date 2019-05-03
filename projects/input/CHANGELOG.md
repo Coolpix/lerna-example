@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/Coolpix/lerna-example/compare/input@1.0.5...input@1.0.8) (2019-05-03)
+
+
+### Bug Fixes
+
+* **lerna json:** añadido tmp folder a ignore ([9088be3](https://github.com/Coolpix/lerna-example/commit/9088be3))
+
+
+
+
+
 ## [1.0.7](https://github.com/Coolpix/lerna-example/compare/input@1.0.5...input@1.0.7) (2019-05-03)
 
 **Note:** Version bump only for package input
