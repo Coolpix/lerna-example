@@ -15,7 +15,7 @@ export class ButtonComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-     console.log("Entra al modulo");	 
+     console.log("Entra al modulo button");	 
   }
 
 }
