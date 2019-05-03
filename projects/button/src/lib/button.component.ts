@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <button>
       Button works!!!
-      Wonderful!!
     </button>
   `,
   styles: []
