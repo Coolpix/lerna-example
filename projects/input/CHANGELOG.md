@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/Coolpix/lerna-example/compare/input@1.0.11...input@1.1.0) (2019-05-03)
+
+
+### Features
+
+* **input:** cambios en el texto mostrado del componente ([55b0f98](https://github.com/Coolpix/lerna-example/commit/55b0f98))
+
+
+
+
+
 ## [1.0.11](https://github.com/Coolpix/lerna-example/compare/input@1.0.10...input@1.0.11) (2019-05-03)
 
 **Note:** Version bump only for package input

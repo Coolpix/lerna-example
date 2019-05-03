@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Coolpix/lerna-example/compare/button@2.0.11...button@2.1.0) (2019-05-03)
+
+
+### Features
+
+* **button:** cambios en el texto mostrado ([e08ee0b](https://github.com/Coolpix/lerna-example/commit/e08ee0b))
+
+
+
+
+
 ## [2.0.11](https://github.com/Coolpix/lerna-example/compare/button@2.0.10...button@2.0.11) (2019-05-03)
 
 **Note:** Version bump only for package button
