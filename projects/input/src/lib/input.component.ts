@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-input',
   template: `
     <div>
-      Input works!
+      Input funciona!
     </div>
   `,
   styles: []
