@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.10](https://github.com/Coolpix/lerna-example/compare/button@2.0.5...button@2.0.10) (2019-05-03)
+
+
+### Bug Fixes
+
+* **fix:** fix ([f109de0](https://github.com/Coolpix/lerna-example/commit/f109de0))
+* **fix:** fix ([8fc79a0](https://github.com/Coolpix/lerna-example/commit/8fc79a0))
+* **lerna json:** añadido tmp folder a ignore ([9088be3](https://github.com/Coolpix/lerna-example/commit/9088be3))
+
+
+
+
+
 ## [2.0.9](https://github.com/Coolpix/lerna-example/compare/button@2.0.5...button@2.0.9) (2019-05-03)
 
 
