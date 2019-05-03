@@ -9,6 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "workspaces": [
+    "projects/*"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.14",
