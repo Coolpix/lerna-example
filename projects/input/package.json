@@ -1,11 +1,11 @@
 {
   "name": "input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
   },
   "dependencies": {
-    "button": "^2.0.1"
+    "button": "^2.0.2"
   }
 }
