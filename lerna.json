@@ -8,7 +8,8 @@
   "ignoreChanges": [
     "**/__fixtures__/**",
     "**/__tests__/**",
-    "**/*.md"
+    "**/*.md",
+   "**/tmp/**"
   ],
   "command": {
     "publish": {
