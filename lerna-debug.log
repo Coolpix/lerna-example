@@ -1,4 +1,6 @@
 0 silly argv { _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
 0 silly argv   lernaVersion: '3.13.4',
 0 silly argv   '$0': '/usr/bin/lerna' }
 1 notice cli v3.13.4
@@ -10,10 +12,10 @@
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 5
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 6
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "button@2.0.0-11-gcf80a85" => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"11","sha":"cf80a85","isDirty":false}
+13 silly git-describe.sync "button@2.0.0-12-g068228a" => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"12","sha":"068228a","isDirty":false}
 14 info Looking for changed packages since button@2.0.0
 15 silly checking diff projects/button
 16 silly found diff in projects/button/CHANGELOG.md
@@ -28,8 +30,8 @@
 20 verbose filtered diff [ 'projects/input/CHANGELOG.md', 'projects/input/package.json' ]
 21 verbose updated button
 22 verbose updated input
-23 verbose git-describe undefined => "button@2.0.0-11-gcf80a85"
-24 silly git-describe parsed => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"11","sha":"cf80a85","isDirty":false}
+23 verbose git-describe undefined => "button@2.0.0-12-g068228a"
+24 silly git-describe parsed => {"lastTagName":"button@2.0.0","lastVersion":"2.0.0","refCount":"12","sha":"068228a","isDirty":false}
 25 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
 26 verbose getChangelogConfig using preset "conventional-changelog-angular"
 27 silly npa { type: 'tag',
@@ -47,9 +49,9 @@
 27 silly npa   hosted: undefined }
 28 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 29 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-30 verbose independent increment 2.0.3 by patch
+30 verbose independent increment 2.0.4 by patch
 31 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-32 verbose independent increment 1.0.3 by patch
+32 verbose independent increment 1.0.4 by patch
 33 silly batched [ PackageGraphNode {
 33 silly batched     name: 'button',
 33 silly batched     externalDependencies: Map {},
@@ -65,12 +67,12 @@
 37 silly lifecycle No script for "preversion" in "button", continuing
 38 silly lifecycle No script for "version" in "button", continuing
 39 silly independent for button at /home/sergio/WebstormProjects/semver-libs/projects/button
-40 silly independent writing new entry: "## [2.0.4](https://github.com/Coolpix/lerna-example/compare/button@2.0.0...button@2.0.4) (2019-05-03)\n\n**Note:** Version bump only for package button\n\n\n\n"
+40 silly independent writing new entry: "## [2.0.5](https://github.com/Coolpix/lerna-example/compare/button@2.0.0...button@2.0.5) (2019-05-03)\n\n**Note:** Version bump only for package button\n\n\n\n"
 41 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/button/CHANGELOG.md
 42 silly lifecycle No script for "preversion" in "input", continuing
 43 silly lifecycle No script for "version" in "input", continuing
 44 silly independent for input at /home/sergio/WebstormProjects/semver-libs/projects/input
-45 silly independent writing new entry: "## [1.0.4](https://github.com/Coolpix/lerna-example/compare/input@1.0.0...input@1.0.4) (2019-05-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
+45 silly independent writing new entry: "## [1.0.5](https://github.com/Coolpix/lerna-example/compare/input@1.0.0...input@1.0.5) (2019-05-03)\n\n**Note:** Version bump only for package input\n\n\n\n"
 46 verbose independent wrote /home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md
 47 silly lifecycle No script for "version" in "semver-libs", continuing
 48 silly gitAdd [ '/home/sergio/WebstormProjects/semver-libs/projects/button/package.json',
@@ -79,25 +81,23 @@
 48 silly gitAdd   '/home/sergio/WebstormProjects/semver-libs/projects/input/CHANGELOG.md' ]
 49 silly gitCommit Publish
 49 silly gitCommit
-49 silly gitCommit  - button@2.0.4
-49 silly gitCommit  - input@1.0.4
+49 silly gitCommit  - button@2.0.5
+49 silly gitCommit  - input@1.0.5
 50 verbose git [ 'commit',
 50 verbose git   '-F',
-50 verbose git   '/tmp/3282c6a0-0a5b-448f-942c-69e491424e71/lerna-commit.txt' ]
-51 error Error: Command failed: git commit -F /tmp/3282c6a0-0a5b-448f-942c-69e491424e71/lerna-commit.txt
-51 error husky > commit-msg (node v10.15.3)
-51 error
-51 error ⧗   input: Publish
-51 error
-51 error  - button@2.0.4
-51 error  - input@1.0.4
-51 error ✖   subject may not be empty [subject-empty]
-51 error ✖   type may not be empty [type-empty]
-51 error ✖   found 2 problems, 0 warnings
-51 error     (Need help? -> https://github.com/conventional-changelog/commitlint#what-is-commitlint )
-51 error
-51 error
-51 error husky > commit-msg hook failed (add --no-verify to bypass)
-51 error
-51 error     at makeError (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
-51 error     at Promise.all.then.arr (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16)
+50 verbose git   '/tmp/a6bb19b2-ea72-4105-8b2d-d431b42e5072/lerna-commit.txt' ]
+51 silly gitTag button@2.0.5
+52 verbose git [ 'tag', 'button@2.0.5', '-m', 'button@2.0.5' ]
+53 silly gitTag input@1.0.5
+54 verbose git [ 'tag', 'input@1.0.5', '-m', 'input@1.0.5' ]
+55 silly lifecycle No script for "postversion" in "button", continuing
+56 silly lifecycle No script for "postversion" in "input", continuing
+57 silly lifecycle No script for "postversion" in "semver-libs", continuing
+58 info git Pushing tags...
+59 silly gitPush origin master
+60 error Error: Command failed: git push --follow-tags --no-verify origin master
+60 error remote: Invalid username or password.
+60 error fatal: Authentication failed for 'https://github.com/Coolpix/lerna-example.git/'
+60 error
+60 error     at makeError (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
+60 error     at Promise.all.then.arr (/home/sergio/WebstormProjects/semver-libs/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16)
