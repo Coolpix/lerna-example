@@ -14,6 +14,7 @@ export class InputComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+   console.log("Entra en el modulo");
   }
 
 }
