@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/Coolpix/lerna-example/compare/input@1.1.4...input@1.1.5) (2019-05-10)
+
+
+### Bug Fixes
+
+* **input component:** añadido texto ([8cada3a](https://github.com/Coolpix/lerna-example/commit/8cada3a))
+
+
+
+
+
 ## [1.1.4](https://github.com/Coolpix/lerna-example/compare/input@1.1.3...input@1.1.4) (2019-05-10)
 
 **Note:** Version bump only for package input
