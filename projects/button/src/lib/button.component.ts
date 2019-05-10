@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
       Button works!!!
 	Marvelous!
 Amazing!!
+YEah
     </button>
   `,
   styles: []
