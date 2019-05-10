@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/Coolpix/lerna-example/compare/button@2.1.1...button@3.0.0) (2019-05-10)
+
+
+### Features
+
+* **button component:** cambio en texto ([fb03be4](https://github.com/Coolpix/lerna-example/commit/fb03be4))
+
+
+### BREAKING CHANGES
+
+* **button component:** el cambio de texto modifica el estilo y necesitas adaptar el css
+
+
+
+
+
 ## [2.1.1](https://github.com/Coolpix/lerna-example/compare/button@2.1.0...button@2.1.1) (2019-05-10)
 
 
