@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/Coolpix/lerna-example/compare/button@3.0.0...button@3.0.1) (2019-05-10)
+
+
+### Bug Fixes
+
+* **button component:** cambios en el dom ([98e8c03](https://github.com/Coolpix/lerna-example/commit/98e8c03))
+
+
+
+
+
 # [3.0.0](https://github.com/Coolpix/lerna-example/compare/button@2.1.1...button@3.0.0) (2019-05-10)
 
 
