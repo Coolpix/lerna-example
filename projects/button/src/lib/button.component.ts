@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 	Marvelous!
 Amazing!!
 YEah
+Great!!!!
     </button>
   `,
   styles: []
