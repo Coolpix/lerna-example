@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/Coolpix/lerna-example/compare/input@1.1.0...input@1.1.1) (2019-05-10)
+
+
+### Bug Fixes
+
+* **package and lerna json:** cambios en los ficheros de configuracion ([6ca066a](https://github.com/Coolpix/lerna-example/commit/6ca066a))
+
+
+
+
+
 # [1.1.0](https://github.com/Coolpix/lerna-example/compare/input@1.0.11...input@1.1.0) (2019-05-03)
 
 
