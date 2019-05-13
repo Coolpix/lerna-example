@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
       Input funciona!
 marvelous
 Inputttt
+papapapa
     </div>
   `,
   styles: []
